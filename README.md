@@ -1,6 +1,6 @@
 # Endeavour
 
-Try, but better.
+[Try](http://api.rubyonrails.org/classes/Object.html#method-i-try), but better.
 
 ## Installation
 

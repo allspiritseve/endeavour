@@ -16,3 +16,5 @@ class Endeavour
     self.class.call(@object, method, *args, &block)
   end
 end
+
+require 'endeavour/railtie' if defined?(Rails)
