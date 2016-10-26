@@ -5,6 +5,8 @@ instances. `try` permits calling a method on an object and returning `nil`
 rather than `NoMethodError` if the object is `nil` or does not respond to
 the method.
 
+[![CircleCI](https://circleci.com/gh/allspiritseve/endeavour/tree/master.svg?style=svg)](https://circleci.com/gh/allspiritseve/endeavour/tree/master)
+
 ## Usage
 
 There are two ways to use `try`:
