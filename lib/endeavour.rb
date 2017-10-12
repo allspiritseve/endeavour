@@ -12,6 +12,10 @@ class Endeavour
     @object = object
   end
 
+  def to_s(*args, &block)
+    send(:method_missing, :to_s, *args, &block)
+  end
+
   def method_missing(method, *args, &block)
     self.class.call(@object, method, *args, &block)
   end

@@ -44,6 +44,11 @@ class EndeavourTest < Minitest::Test
     assert_equal nil, numbers.try.map { |n| n * n }
   end
 
+  def test_to_s
+    color = :yellow
+    assert_equal 'yellow', color.try.to_s
+  end
+
   def test_remove_hook
     Endeavour.remove_hook!
     assert_raises 'NoMethodError' do
